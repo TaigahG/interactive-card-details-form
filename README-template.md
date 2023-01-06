@@ -16,28 +16,11 @@ This is a solution to the [Interactive card detail page Quiz 2 challenge]
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- Fill in the form and see the card details update in real-time
-- Receive error messages when the form is submitted if:
-  - Any input field is empty
-  - The card number, expiry date, or CVC fields are in the wrong format
-- View the optimal layout depending on their device's screen size
-- See hover, active, and focus states for interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://cdn.discordapp.com/attachments/691621581885145159/1060846459257360455/Screen_Shot_2023-01-06_at_16.04.05.png)
 
-Add a screenshot of your solution. Crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -48,61 +31,30 @@ Add a screenshot of your solution. Crop/optimize/edit your image however you lik
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- HTML
+- CSS
+- JavaScript
+- Google font style (https://fonts.google.com/specimen/Space+Grotesk)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I Learned how to use html, css, and javascript in an advanced way. Especially javascript, in this challenge i need change the number of the card as the same as the user input. For me this quiz is challenging
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I learned a lot from this challenge, especially handling error and input user. I can use this knowledge for my future project.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1]([https://www.example.com](https://www.w3schools.com/)) - This website where i searching for some html, css, and javascript code that i don't understand
+- [Example resource 2]([https://www.example.com](https://www.youtube.com)) - This amazing website where i learned everything about coding.
 
 ## Your Detail 
 
-- FullName - [Add your name here]
-- StudentID - [Add your StudentID here]
-- BINUS Email - [Add your BINUS email here]
+- FullName - [I Kadek Gita Pradnya Widagda]
+- StudentID - [2602118502]
+- BINUS Email - [i.widagda@binus.ac.id]
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Credits to youtube channel javascript font for helping me for the javascript part
