@@ -24,8 +24,8 @@ This is a solution to the [Interactive card detail page Quiz 2 challenge]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/TaigahG/interactive-card-details-form)
+- Live Site URL: [Add live site URL here](https://taigahg.github.io/interactive-card-details-form/)
 
 ## My process
 
