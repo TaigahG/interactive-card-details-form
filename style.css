@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+.hidden {
+  display: none !important;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.error {
+  border: 2px solid hsl(0, 100%, 66%);
+}
+.error_message {
+  gap: 0;
+}
+.error_message::after {
+  content: "can't be blank";
+  color: hsl(0, 100%, 66%);
+  margin-top: 0.5rem;
+}
+.left {
+  min-height: 100vh;
+  width: 40%;
+  background-image: url("images/bg-main-desktop.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.card-pict {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+.front-sec {
+  position: relative;
+  transform: translateX(-100px);
+}
+.card-logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+#number {
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 5rem;
+  left: 1rem;
+  letter-spacing: 2px;
+}
+.user-info {
+  position: absolute;
+  bottom: 0.25rem;
+  left: 0.5rem;
+  right: 1rem;
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  justify-content: space-between;
+}
+.back-sec {
+  position: relative;
+}
+#cvc {
+  position: absolute;
+  right: 3rem;
+  top: 7rem;
+  color: hsl(270, 3%, 87%);
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.right form {
+  display: grid;
+  width: 350px;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+label {
+  color: hsl(278, 68%, 11%);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+input {
+  padding: 0.25em;
+  font-size: 15px;
+  border: 1px solid hsl(279, 6%, 55%);
+  border-radius: 10px;
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+input::placeholder {
+  font-family: inherit;
+  color: hsl(279, 6%, 55%);
+}
+input:focus {
+  outline-color: hsl(249, 99%, 64%);
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 span;
+}
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 span;
+}
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 span;
+}
+.information {
+  display: flex;
+  grid-column: 2 span;
+  gap: 1rem;
+}
+#card-date {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 span;
+}
+#card-date .input {
+  display: flex;
+}
+.input div {
+  flex-direction: column;
+}
+#card-date div input {
+  width: 80px;
+  margin-inline: 0.25rem;
+  margin-left: 0;
+}
+form button {
+  grid-column: 2 span;
+  font-size: 20px;
+  height: 45px;
+  color: white;
+  border-radius: 10px;
+  background-color: hsl(278, 68%, 11%);
+  cursor: pointer;
+}
+.thankyou {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.thankyou h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.thankyou p {
+  font-size: 20px;
+  color: hsl(279, 6%, 55%);
+}
+.thankyou button {
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 15px;
+  background-color: hsl(278, 68%, 11%);
+  cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+  .front-sec,
+  .front-sec img,
+  .back-sec,
+  .back-sec img {
+    width: 300px;
+  }
+  .container-card .card-logo {
+    width: 50px;
+  }
+  #number {
+    font-size: 1rem;
+  }
+  #cvc {
+    top: 42%;
+    right: 12%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+  .front-sec,
+  .front-sec img,
+  .back-sec,
+  .back-sec img {
+    width: 280px;
+  }
+  .left {
+    width: 100%;
+    min-height: 25vh;
+    background-image: url("images/bg-main-mobile.png");
+  }
+  .card-pict {
+    flex-direction: column-reverse;
+    left: 61%;
+    top: 60%;
+    gap: 0;
+  }
+  .back-sec {
+    transform: translateY(70px);
+  }
+  .front-sec {
+    z-index: 100;
+  }
+  .right {
+    margin-top: 6rem;
+  }
+}
