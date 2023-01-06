@@ -57,4 +57,4 @@ I learned a lot from this challenge, especially handling error and input user. I
 
 
 ## Acknowledgments
-Credits to youtube channel javascript font for helping me for the javascript part
+Credits to youtube channel javascript font for helping me for the javascript part, even though my js is not working, but i learned a lot about js from that guy.
