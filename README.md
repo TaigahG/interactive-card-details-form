@@ -46,8 +46,8 @@ I learned a lot from this challenge, especially handling error and input user. I
 
 ### Useful resources
 
-- [Example resource 1]([https://www.example.com](https://www.w3schools.com/)) - This website where i searching for some html, css, and javascript code that i don't understand
-- [Example resource 2]([https://www.example.com](https://www.youtube.com)) - This amazing website where i learned everything about coding.
+- [Example resource 1]([https://www.example.com](https://www.w3schools.com/])) - This website where i searching for some html, css, and javascript code that i don't understand
+- [Example resource 2]([https://www.example.com](https://www.youtube.com])) - This amazing website where i learned everything about coding.
 
 ## Your Detail 
 
